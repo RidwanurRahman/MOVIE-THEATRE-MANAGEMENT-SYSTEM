@@ -1,16 +1,43 @@
 # Movie Theater Management System
 
-## Overview
+## Case study
 
-The **Movie Theater Management System (MTMS)** is a desktop-based application developed using **C# (.NET 10, Windows Forms)** and **Microsoft SQL Server**. The system is designed to manage the primary operations of a movie theater, including movie management, show scheduling, seat management, ticket booking, customer feedback, user management, and sales reporting.
-
-The application implements a role-based access system with three user categories:
-
-- Super Admin
-- Admin
-- Customer
-
-Each role is provided with specific functionalities according to its responsibilities within the system.
+Booking a movie ticket in Bangladesh today usually means calling a theater's box office, standing in a long 
+queue on release day, or hoping a third-party app has bothered to list a small-town cinema at all. Independent 
+multiplexes and single-screen theaters outside the two or three big national chains have almost no online 
+presence: they cannot afford their own booking website, so seats go unsold on slow weekdays while sold-out 
+shows turn away walk-in customers who had no way of checking availability in advance. Meanwhile, movie
+goers who do want to plan ahead — compare showtimes across theaters, read reviews before choosing a film, or 
+grab a discounted weekday ticket — have no single place to do it. The Movie Theater Management System 
+solves this by acting as the digital middleman between the people who own theaters and the people who want to 
+watch movies in them, the same way Pathao connects riders with drivers or Daraz connects shoppers with 
+sellers.
+The platform has three actors. The Customer is the movie-goer who wants to search for a film, see which 
+theaters are screening it and when, book a specific number of seats, pay online, and later look back at their 
+booking history or leave a rating. The Admin, functioning as a Theater Owner, is the business partner: they run 
+a real cinema hall or multiplex screen and use the platform to list their showtimes, track how many seats remain 
+for each show, see how much they have earned, and run limited-time discount offers to fill empty seats on 
+weekdays. The Super Admin is the platform's own operating company — the party that built and owns the 
+software. They approve new theater owners before those owners can start selling tickets, keep an eye on theaters 
+that are earning consistently poor ratings, moderate reviews that are abusive or fake, and see, across the entire 
+platform, how much revenue and commission has been generated.
+The world these three actors share is made of a small number of connected entities. A Theater is a physical 
+cinema business, identified by its name, location, address and the Admin account that owns it. A Show is a 
+single scheduled screening — one movie, on one screen, at one date and time, sold by exactly one theater; every 
+show carries its own title, genre, language, ticket price, total seat count and how many seats remain, so a hugely 
+popular midnight release and a quiet Tuesday matinee of the same film are tracked as two completely separate 
+records. A Cart holds the shows a customer is thinking about booking before they commit to paying, an Order is 
+created the moment they check out, and because one order can contain tickets to more than one show (and a 
+single show is bought by many different orders), an OrderItems table sits between them recording exactly how 
+many seats and at what price were bought in that transaction. A Review ties a customer's star rating and 
+comment to the specific show they watched, and an Offer is a time-boxed percentage discount a theater owner 
+attaches to one of their shows.
+Money flows in one direction and splits in two. When a customer pays for tickets at checkout, the full ticket 
+price is charged to their card or mobile wallet. The Movie Theater Management System, as the platform 
+operator, retains a commission percentage from that transaction — the same way a delivery app keeps a cut of 
+every food order — before crediting the remaining balance to the theater owner's earnings, which they can see 
+summarized on their own sales report. The Super Admin's platform-wide dashboard simply aggregates this 
+commission across every theater and every order to show the company how the whole business is performing
 
 ---
 
