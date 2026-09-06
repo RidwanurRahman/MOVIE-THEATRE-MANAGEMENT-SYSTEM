@@ -254,15 +254,6 @@ This approach centralizes database communication within the application.
 
 ---
 
-## Additional Information
-
-- Primary and foreign keys in the database are stored as `varchar` identifiers, including identifiers such as `MovieID`, `ShowID`, and `SeatID`.
-- Database operations are handled through the centralized `DataAccess` class.
-- The application supports sales report generation and printing.
-- The sales reporting functionality uses `System.Drawing.Printing`.
-- The application follows a role-based access structure to separate Super Admin, Admin, and Customer functionalities.
-
----
 
 ## License
 
