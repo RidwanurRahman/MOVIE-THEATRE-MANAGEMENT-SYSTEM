@@ -1,0 +1,68 @@
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.exe
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.deps.json
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.runtimeconfig.json
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.pdb
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Admin_Dashboard.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Login.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Manage_Seat.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Manage_Shows.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.ManageMovies.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Properties.Resources.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.GenerateResource.cache
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.AssemblyInfoInputs.cache
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.AssemblyInfo.cs
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.CoreCompileInputs.cache
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\refint\Movie Theater Management System.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.pdb
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.genruntimeconfig.cache
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\ref\Movie Theater Management System.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.AssemblyReference.cache
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Th.3226C414.Up2Date
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Booking_Ticket.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.CustomerDashboard.resources
+D:\Movie Theater Management System\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Feedback.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.AssemblyReference.cache
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Admin_Dashboard.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Booking_Ticket.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.CustomerDashboard.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Feedback.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Login.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Manage_Seat.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Manage_Shows.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.ManageMovies.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.ManageUsers.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Properties.Resources.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.SalesReport.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.SuperAdminDashboard.resources
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.GenerateResource.cache
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.AssemblyInfoInputs.cache
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.AssemblyInfo.cs
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.csproj.CoreCompileInputs.cache
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.exe
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.deps.json
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.runtimeconfig.json
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\Movie Theater Management System.pdb
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Th.3226C414.Up2Date
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\refint\Movie Theater Management System.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.pdb
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie Theater Management System.genruntimeconfig.cache
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\ref\Movie Theater Management System.dll
+C:\Users\mmrnz\Downloads\Movie Theater Management System 1 (2)\Movie Theater Management System\Movie Theater Management System\obj\Debug\net10.0-windows\Movie_Theater_Management_System.Register.resources

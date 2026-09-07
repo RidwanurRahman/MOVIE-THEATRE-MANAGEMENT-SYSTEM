@@ -1,0 +1,36 @@
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\Movie Theater Management System.exe
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\Movie Theater Management System.deps.json
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\Movie Theater Management System.runtimeconfig.json
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\Movie Theater Management System.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\Movie Theater Management System.pdb
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.csproj.AssemblyReference.cache
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Admin_Dashboard.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Booking_Ticket.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.CustomerDashboard.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Feedback.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Login.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Manage_Seat.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Manage_Shows.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.ManageMovies.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.ManageUsers.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Properties.Resources.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.Register.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.SalesReport.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie_Theater_Management_System.SuperAdminDashboard.resources
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.csproj.GenerateResource.cache
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.AssemblyInfoInputs.cache
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.AssemblyInfo.cs
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.csproj.CoreCompileInputs.cache
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Th.3226C414.Up2Date
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\refint\Movie Theater Management System.dll
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.pdb
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\Movie Theater Management System.genruntimeconfig.cache
+C:\c#\Movie Theater Management System\Movie Theater Management System\obj\Debug\net9.0-windows\ref\Movie Theater Management System.dll
