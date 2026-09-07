@@ -212,14 +212,21 @@ As a Customer, I can update my own profile and password, so that I can keep my c
 
 Details: A profile form pre-fills name, phone and address; changing password requires the current password plus a new password entered twice.
 
-## Chapter 3 — UI Navigation Diagram
+##  — UI Navigation Diagram
+___
+**Figure 1 — UI Navigation Diagram**
 
-**Figure 3.1 — UI Navigation Diagram**
-
-The application always starts at the Login Form, with a link across to Sign Up for new accounts. After credentials are validated, a decision node (Check UserType?) routes the session down exactly one of three colour-coded branches. The Super Admin branch (red) opens onto platform-moderation screens; the Admin/Theater Owner branch (orange) covers theater profile management, full show CRUD, the seat-inventory dashboard, the earnings report, offer creation, read-only reviews and profile updates; the Customer branch (green) runs Browse to Show Details to Cart to Checkout, and then branches to Booking History, Rate and Review, Offers and Packages, and Profile and Password. Every dashboard has a Logout to Reset arrow back to the Login Form, and every leaf screen has a Back path, so there are no dead ends anywhere in the diagram.
-
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/ebc8446f73b6d5f9616948f4f97ac793c52ef770/ui.png
+)
 ## Database Design
+___
+**Figure 2 - Schema sql Diagram**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/ebc8446f73b6d5f9616948f4f97ac793c52ef770/schemaPPP.png)
 
+**Figure 3 - ER Diagram**
+___
+1[image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/ebc8446f73b6d5f9616948f4f97ac793c52ef770/er.png
+)
 
 ## SQL Queries
 
