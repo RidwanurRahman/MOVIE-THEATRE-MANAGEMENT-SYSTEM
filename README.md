@@ -1,6 +1,6 @@
-AMERICAN INTERNATIONAL UNIVERSITY–BANGLADESH (AIUB)
+### AMERICAN INTERNATIONAL UNIVERSITY–BANGLADESH (AIUB)
 
-Faculty of Science and Technology · Department of Computer Science
+## Faculty of Science and Technology · Department of Computer Science
 
 CSC 2210 — Object Oriented Programming 2
 
@@ -10,7 +10,22 @@ Project Assignment 01 — System Design & Report
 
 ## MOVIE THEATER MANAGEMENT SYSTEM
 
-Group Members:
+| Field | Details |
+| --- | --- |
+| Semester | Summer 2025–2026 |
+| Section | AA |
+| Group No. | NONE |
+| Domain | Movie Theater / Cinema Ticket Booking |
+| Supervisor | DR. MD IFTEKHARUL MOBIN |
+
+
+| # | Name | ID |
+| --- | --- | --- |
+| 1 | MUHAMMAD RIDWANUR RAHMAN | 23-55300-3 |
+| 2 |  |  |
+| 3 |  |  |
+| 4 |  |  |
+
 
 ## Table of Contents
 
@@ -348,24 +363,7 @@ The group anticipates two main challenges during implementation. The first is co
 
 ## Tables
 
-### Table 1
 
-| Field | Details |
-| --- | --- |
-| Semester | Summer 2025–2026 |
-| Section | AA |
-| Group No. | NONE |
-| Domain | Movie Theater / Cinema Ticket Booking |
-| Supervisor | DR. MD IFTEKHARUL MOBIN |
-
-### Table 2
-
-| # | Name | ID |
-| --- | --- | --- |
-| 1 | MUHAMMAD RIDWANUR RAHMAN | 23-55300-3 |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
 
 ### Table 3
 
