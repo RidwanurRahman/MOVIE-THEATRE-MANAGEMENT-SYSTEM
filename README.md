@@ -18,13 +18,13 @@ Project Assignment 01 — System Design & Report
 | Domain | Movie Theater / Cinema Ticket Booking |
 | Supervisor | DR. MD IFTEKHARUL MOBIN |
 
+---
+___
 
 | # | Name | ID |
 | --- | --- | --- |
 | 1 | MUHAMMAD RIDWANUR RAHMAN | 23-55300-3 |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
+
 
 
 ## Table of Contents
