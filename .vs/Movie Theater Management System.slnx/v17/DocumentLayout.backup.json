@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\c#\\Movie Theater Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|c:\\c#\\movie theater management system\\movie theater management system\\manage seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|solutionrelative:movie theater management system\\manage seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|C:\\c#\\Movie Theater Management System\\movie theater management system\\manage seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|solutionrelative:movie theater management system\\manage seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|c:\\c#\\movie theater management system\\movie theater management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|solutionrelative:movie theater management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|C:\\c#\\Movie Theater Management System\\movie theater management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|solutionrelative:movie theater management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|c:\\c#\\movie theater management system\\movie theater management system\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4E441E-71BD-22FC-3BD5-7BBC8E46294B}|Movie Theater Management System\\Movie Theater Management System.csproj|solutionrelative:movie theater management system\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manage Seat.cs",
+              "DocumentMoniker": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Manage Seat.cs",
+              "RelativeDocumentMoniker": "Movie Theater Management System\\Manage Seat.cs",
+              "ToolTip": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Manage Seat.cs",
+              "RelativeToolTip": "Movie Theater Management System\\Manage Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T15:52:39.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manage Seat.cs [Design]",
+              "DocumentMoniker": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Manage Seat.cs",
+              "RelativeDocumentMoniker": "Movie Theater Management System\\Manage Seat.cs",
+              "ToolTip": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Manage Seat.cs [Design]*",
+              "RelativeToolTip": "Movie Theater Management System\\Manage Seat.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T15:52:29.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin Panel.cs",
+              "DocumentMoniker": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Admin Panel.cs",
+              "RelativeDocumentMoniker": "Movie Theater Management System\\Admin Panel.cs",
+              "ToolTip": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Admin Panel.cs",
+              "RelativeToolTip": "Movie Theater Management System\\Admin Panel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T15:50:07.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Movie Theater Management System\\DataAccess.cs",
+              "ToolTip": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\DataAccess.cs",
+              "RelativeToolTip": "Movie Theater Management System\\DataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T22:22:41.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin Panel.cs [Design]",
+              "DocumentMoniker": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Admin Panel.cs",
+              "RelativeDocumentMoniker": "Movie Theater Management System\\Admin Panel.cs",
+              "ToolTip": "C:\\c#\\Movie Theater Management System\\Movie Theater Management System\\Admin Panel.cs [Design]",
+              "RelativeToolTip": "Movie Theater Management System\\Admin Panel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T22:10:54.18Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
