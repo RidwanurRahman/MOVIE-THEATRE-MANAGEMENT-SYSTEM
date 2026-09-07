@@ -225,8 +225,7 @@ ___
 
 **Figure 3 - ER Diagram**
 ___
-1[image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/ebc8446f73b6d5f9616948f4f97ac793c52ef770/er.png
-)
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/e3b5fddc511ea16b881caf1fc77c6f37e923eaf8/er.png)
 
 ## SQL Queries
 
