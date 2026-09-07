@@ -11,7 +11,6 @@ The platform has three actors. The **Customer** searches for a film, sees which 
 
 A few connected entities make up this world. A **Theater** is a physical cinema owned by an Admin. A **Show** is one scheduled screening — one movie, one screen, one date/time — with its own title, genre, price and seat count, so a packed midnight release and a quiet matinee of the same film are tracked separately. A **Cart** holds shows a customer is considering; checking out creates an **Order**, and since one order can hold tickets to several shows, an **OrderItems** table records exactly how many seats and at what price were bought. A **Review** ties a rating and comment to a show, and an **Offer** is a time-boxed discount an owner attaches to a show.
 
-Money flows one way and splits in two: the customer pays full price, the platform keeps a commission — like a delivery app's cut — and credits the rest to the theater owner's earnings, which the Super Admin's dashboard aggregates platform-wide.
 ---
 
 ## Features and Functionalities
