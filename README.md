@@ -30,7 +30,7 @@ ___
 
 ## Table of Contents
 
-## Chapter 1 — Introduction & Case Study
+##  — Introduction & Case Study
 
 Booking a movie ticket in Bangladesh today usually means calling a theater's box office, standing in a long queue on release day, or hoping a third-party app has bothered to list a small-town cinema at all. Independent multiplexes and single-screen theaters outside the two or three big national chains have almost no online presence: they cannot afford their own booking website, so seats go unsold on slow weekdays while sold-out shows turn away walk-in customers who had no way of checking availability in advance. Meanwhile, movie-goers who do want to plan ahead — compare showtimes across theaters, read reviews before choosing a film, or grab a discounted weekday ticket — have no single place to do it. The Movie Theater Management System solves this by acting as the digital middleman between the people who own theaters and the people who want to watch movies in them, the same way Pathao connects riders with drivers or Daraz connects shoppers with sellers.
 
@@ -220,31 +220,6 @@ The application always starts at the Login Form, with a link across to Sign Up f
 
 ## Database Design
 
-**Figure 4.1 — SQL Schema Diagram (3NF)**
-
-**Figure 4.2 — Bonus ER Diagram**
-
-### Table Descriptions
-
-Users
-
-Genres
-
-Theaters
-
-Shows
-
-Cart
-
-Orders
-
-OrderItems (junction table)
-
-Reviews
-
-Offers
-
-shows, orders or earnings.
 
 ## SQL Queries
 
@@ -295,8 +270,120 @@ OFFERS
 Joins Offers with Shows and calculates the discounted price for any offer whose date range includes today, for the Customer's Offers screen.
 
 ### Full Script Excerpt (CREATE TABLE — Shows)
+___
+___
+### Table 1
 
-The complete schema.sql file (all 9 CREATE TABLE statements, sample data, and all 12 feature queries) is available in the repository under /database/schema.sql.
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| UserId | INT | PK, IDENTITY | Unique user identifier |
+| FullName | VARCHAR(100) | NOT NULL | User's full name |
+| Email | VARCHAR(100) | NOT NULL, UNIQUE | Login email |
+| Password | VARCHAR(255) | NOT NULL | Hashed password |
+| Phone | VARCHAR(20) | NOT NULL | Contact number |
+| Address | VARCHAR(200) |  | Mailing/city address |
+| UserType | VARCHAR(20) | NOT NULL, CHECK | SuperAdmin / Admin / Customer |
+| Status | VARCHAR(20) | NOT NULL, CHECK | Pending / Active / Suspended |
+| CreatedAt | DATETIME | NOT NULL | Registration timestamp |
+
+### Table 2
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| GenreId | INT | PK, IDENTITY | Unique genre identifier |
+| GenreName | VARCHAR(50) | NOT NULL, UNIQUE | e.g. Action, Drama |
+| Description | VARCHAR(200) |  | Short description |
+
+### Table 3
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| TheaterId | INT | PK, IDENTITY | Unique theater identifier |
+| OwnerId | INT | FK -> Users(UserId) | Owning Admin account |
+| TheaterName | VARCHAR(100) | NOT NULL | Business name |
+| Location | VARCHAR(100) | NOT NULL | Area/city |
+| Address | VARCHAR(200) | NOT NULL | Full street address |
+| Contact | VARCHAR(20) |  | Box-office phone number |
+| Status | VARCHAR(20) | NOT NULL, CHECK | Pending / Active / Suspended |
+
+### Table 4
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| ShowId | INT | PK, IDENTITY | Unique show identifier |
+| TheaterId | INT | FK -> Theaters | Owning theater |
+| GenreId | INT | FK -> Genres | Movie genre |
+| MovieTitle | VARCHAR(150) | NOT NULL | Movie name |
+| Language | VARCHAR(30) | NOT NULL | Audio language |
+| ShowDate | DATE | NOT NULL | Screening date |
+| ShowTime | TIME | NOT NULL | Screening time |
+| ScreenNo | VARCHAR(10) | NOT NULL | Hall/screen number |
+| Price | DECIMAL(10,2) | NOT NULL, CHECK>0 | Ticket price |
+| TotalSeats | INT | NOT NULL, CHECK>0 | Total hall capacity |
+| SeatsAvailable | INT | NOT NULL | Seats currently unsold |
+| MinSeatAlert | INT | NOT NULL | Low-seat alert threshold |
+| Description | VARCHAR(300) |  | Short synopsis |
+| PosterPath | VARCHAR(255) |  | Poster image path |
+
+### Table 5
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| CartId | INT | PK, IDENTITY | Unique cart-line identifier |
+
+### Table 6
+
+| CustomerId | INT | FK -> Users | Owning customer |
+| --- | --- | --- | --- |
+| ShowId | INT | FK -> Shows | Selected show |
+| Quantity | INT | NOT NULL, CHECK>0 | Seats requested |
+| AddedDate | DATETIME | NOT NULL | When added to cart |
+
+### Table 7
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| OrderId | INT | PK, IDENTITY | Unique order identifier |
+| CustomerId | INT | FK -> Users | Booking customer |
+| OrderDate | DATETIME | NOT NULL | Checkout timestamp |
+| TotalAmount | DECIMAL(10,2) | NOT NULL | Full order total |
+| PaymentMethod | VARCHAR(30) | NOT NULL | Card / Mobile Banking / etc. |
+| Status | VARCHAR(20) | NOT NULL, CHECK | Confirmed / Cancelled |
+
+### Table 8
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| OrderItemId | INT | PK, IDENTITY | Unique line-item identifier |
+| OrderId | INT | FK -> Orders | Parent order |
+| ShowId | INT | FK -> Shows | Booked show |
+| Quantity | INT | NOT NULL, CHECK>0 | Seats booked in this line |
+| UnitPrice | DECIMAL(10,2) | NOT NULL | Price per seat at booking time |
+| Subtotal | DECIMAL(10,2) | NOT NULL | Quantity x UnitPrice |
+
+### Table 9
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| ReviewId | INT | PK, IDENTITY | Unique review identifier |
+| CustomerId | INT | FK -> Users | Reviewer |
+| ShowId | INT | FK -> Shows | Reviewed show |
+| Rating | INT | NOT NULL, CHECK 1-5 | Star rating |
+| Comment | VARCHAR(500) |  | Written feedback |
+| ReviewDate | DATETIME | NOT NULL | Submission timestamp |
+
+### Table 10
+
+| Column | Data Type | Constraint | Description |
+| --- | --- | --- | --- |
+| OfferId | INT | PK, IDENTITY | Unique offer identifier |
+| ShowId | INT | FK -> Shows | Discounted show |
+| DiscountPercent | DECIMAL(5,2) | NOT NULL, CHECK 0-100 | Percentage off |
+| StartDate | DATE | NOT NULL | Offer start |
+| EndDate | DATE | NOT NULL | Offer end |
+
+___
+___
 
 ## User Interface Design
 
@@ -362,116 +449,6 @@ The group anticipates two main challenges during implementation. The first is co
 
 ---
 
-## Tables
 
 
 
-### Table 3
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| UserId | INT | PK, IDENTITY | Unique user identifier |
-| FullName | VARCHAR(100) | NOT NULL | User's full name |
-| Email | VARCHAR(100) | NOT NULL, UNIQUE | Login email |
-| Password | VARCHAR(255) | NOT NULL | Hashed password |
-| Phone | VARCHAR(20) | NOT NULL | Contact number |
-| Address | VARCHAR(200) |  | Mailing/city address |
-| UserType | VARCHAR(20) | NOT NULL, CHECK | SuperAdmin / Admin / Customer |
-| Status | VARCHAR(20) | NOT NULL, CHECK | Pending / Active / Suspended |
-| CreatedAt | DATETIME | NOT NULL | Registration timestamp |
-
-### Table 4
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| GenreId | INT | PK, IDENTITY | Unique genre identifier |
-| GenreName | VARCHAR(50) | NOT NULL, UNIQUE | e.g. Action, Drama |
-| Description | VARCHAR(200) |  | Short description |
-
-### Table 5
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| TheaterId | INT | PK, IDENTITY | Unique theater identifier |
-| OwnerId | INT | FK -> Users(UserId) | Owning Admin account |
-| TheaterName | VARCHAR(100) | NOT NULL | Business name |
-| Location | VARCHAR(100) | NOT NULL | Area/city |
-| Address | VARCHAR(200) | NOT NULL | Full street address |
-| Contact | VARCHAR(20) |  | Box-office phone number |
-| Status | VARCHAR(20) | NOT NULL, CHECK | Pending / Active / Suspended |
-
-### Table 6
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| ShowId | INT | PK, IDENTITY | Unique show identifier |
-| TheaterId | INT | FK -> Theaters | Owning theater |
-| GenreId | INT | FK -> Genres | Movie genre |
-| MovieTitle | VARCHAR(150) | NOT NULL | Movie name |
-| Language | VARCHAR(30) | NOT NULL | Audio language |
-| ShowDate | DATE | NOT NULL | Screening date |
-| ShowTime | TIME | NOT NULL | Screening time |
-| ScreenNo | VARCHAR(10) | NOT NULL | Hall/screen number |
-| Price | DECIMAL(10,2) | NOT NULL, CHECK>0 | Ticket price |
-| TotalSeats | INT | NOT NULL, CHECK>0 | Total hall capacity |
-| SeatsAvailable | INT | NOT NULL | Seats currently unsold |
-| MinSeatAlert | INT | NOT NULL | Low-seat alert threshold |
-| Description | VARCHAR(300) |  | Short synopsis |
-| PosterPath | VARCHAR(255) |  | Poster image path |
-
-### Table 7
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| CartId | INT | PK, IDENTITY | Unique cart-line identifier |
-
-### Table 8
-
-| CustomerId | INT | FK -> Users | Owning customer |
-| --- | --- | --- | --- |
-| ShowId | INT | FK -> Shows | Selected show |
-| Quantity | INT | NOT NULL, CHECK>0 | Seats requested |
-| AddedDate | DATETIME | NOT NULL | When added to cart |
-
-### Table 9
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| OrderId | INT | PK, IDENTITY | Unique order identifier |
-| CustomerId | INT | FK -> Users | Booking customer |
-| OrderDate | DATETIME | NOT NULL | Checkout timestamp |
-| TotalAmount | DECIMAL(10,2) | NOT NULL | Full order total |
-| PaymentMethod | VARCHAR(30) | NOT NULL | Card / Mobile Banking / etc. |
-| Status | VARCHAR(20) | NOT NULL, CHECK | Confirmed / Cancelled |
-
-### Table 10
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| OrderItemId | INT | PK, IDENTITY | Unique line-item identifier |
-| OrderId | INT | FK -> Orders | Parent order |
-| ShowId | INT | FK -> Shows | Booked show |
-| Quantity | INT | NOT NULL, CHECK>0 | Seats booked in this line |
-| UnitPrice | DECIMAL(10,2) | NOT NULL | Price per seat at booking time |
-| Subtotal | DECIMAL(10,2) | NOT NULL | Quantity x UnitPrice |
-
-### Table 11
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| ReviewId | INT | PK, IDENTITY | Unique review identifier |
-| CustomerId | INT | FK -> Users | Reviewer |
-| ShowId | INT | FK -> Shows | Reviewed show |
-| Rating | INT | NOT NULL, CHECK 1-5 | Star rating |
-| Comment | VARCHAR(500) |  | Written feedback |
-| ReviewDate | DATETIME | NOT NULL | Submission timestamp |
-
-### Table 12
-
-| Column | Data Type | Constraint | Description |
-| --- | --- | --- | --- |
-| OfferId | INT | PK, IDENTITY | Unique offer identifier |
-| ShowId | INT | FK -> Shows | Discounted show |
-| DiscountPercent | DECIMAL(5,2) | NOT NULL, CHECK 0-100 | Percentage off |
-| StartDate | DATE | NOT NULL | Offer start |
-| EndDate | DATE | NOT NULL | Offer end |
