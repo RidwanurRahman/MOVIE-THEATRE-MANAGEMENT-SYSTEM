@@ -227,6 +227,57 @@ ___
 ___
 ![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/e3b5fddc511ea16b881caf1fc77c6f37e923eaf8/er.png)
 
+___
+**Figure 4 - LOGIN**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/LOGIN.png
+)
+
+**Figure 5 - REGISTRATION**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/REGISTRATION.png
+)
+
+**Figure 6 - ADMIN DASHBOARD**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/ADMIN%20DASHBOARD.png
+)
+
+**Figure 7 - AUDIENCE DASHBOARD**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/AUDIENCE%20DASHBOARD.png
+)
+
+**Figure 8 - SUPER ADMIN DASHBOARD**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/SA%20DASHBOARD.png
+)
+
+**Figure 9 - MANAGE USERS**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/MANAGE%20USERS.png
+)
+
+**Figure 10 - SALES REPORT**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/SALES%20REPORT.png
+)
+
+**Figure 11 - MANAGE MOVIES**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/MANAGE%20MOVIES.png
+)
+
+**Figure 12 - MANAGE SHOWS**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/MANAGE%20SHOWS.png
+)
+
+**Figure 13 - MANAGE SEAT**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/MANAGE%20SEAT.png
+)
+
+**Figure 14 - BOOKING TICKET**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/BOOKING%20TICKET.png
+)
+
+**Figure 15 - FEEDBACK**
+![image alt](https://github.com/RidwanurRahman/MOVIE-THEATRE-MANAGEMENT-SYSTEM/blob/99d06a69f6bcb0fad75b8b228c77a3d52f1ad090/IMAGES/FEEDBACK.png
+)
+
+
+
 ## SQL Queries
 
 The full script — CREATE TABLE statements, sample INSERTs, and all twelve feature queries — is committed at database/schema.sql. Each query is explained below, feature by feature.
